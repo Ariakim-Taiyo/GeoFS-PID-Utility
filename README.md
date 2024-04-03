@@ -6,7 +6,7 @@ This is useful for autopilot systems, FBW systems, and other similar systems tha
 Copy the contents of [index.js](https://github.com/Ariakim-Taiyo/GeoFS-PID-Utility/blob/main/index.js) into the DevTools Console (F12).\
 *The code is not obfuscated or minified, so you may easily verify the legitimacy of the code before using it.*
 
-**Upon loading, a panel will appear on the left side of the screen. This panel contains the graph, which displays a value of your choice:**
+**Upon loading, a panel will appear on the left side of the screen. This panel contains the graph, which displays a value of your choice:**\
 ![image](https://github.com/Ariakim-Taiyo/GeoFS-PID-Utility/assets/79466778/0bc1726f-78c1-4d87-9c80-351eafafff19)
 
 **As well as a few sliders which are used to make adjustments to the PID controllers:**\
