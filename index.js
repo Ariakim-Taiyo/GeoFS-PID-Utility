@@ -1,4 +1,5 @@
 let valueToGraph = "atilt"; //The animation value to use
+let bounds = [-180, 180] //Lower / Upper bounds of the graph.
 let valueGraphed;           //Leave blank
 let graphTitle = "Pitch Angle";   //Title of the graph. Purely aesthetic.
 let apObject = geofs.autopilot.PIDs.pitchAngle; //Change this to other PID objects if you want to debug those.
@@ -39,8 +40,8 @@ setTimeout(function() {
       vAxis: {
         title: "Rate",
         viewWindow: {
-          min: -1,
-          max: 1
+          min: bounds[0],
+          max: bounds[1]
         }
       }
     };
