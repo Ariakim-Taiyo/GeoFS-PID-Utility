@@ -1,6 +1,6 @@
-let valueToGraph = "pitch"; //The animation value to use
+let valueToGraph = "atilt"; //The animation value to use
 let valueGraphed;           //Leave blank
-let graphTitle = "Pitch";   //Title of the graph. Purely aesthetic.
+let graphTitle = "Pitch Angle";   //Title of the graph. Purely aesthetic.
 let apObject = geofs.autopilot.PIDs.pitchAngle; //Change this to other PID objects if you want to debug those.
 
 
